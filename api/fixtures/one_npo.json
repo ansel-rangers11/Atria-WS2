@@ -1,0 +1,48 @@
+[
+{
+  "model": "api.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$QWzLFmsSReFd$Vglja/f+Knfvs0Yfn9df7TpHzdzcTDm9EIaj7sBbhyI=",
+    "last_login": null,
+    "is_superuser": false,
+    "date_joined": "2018-01-22T00:46:00.592Z",
+    "email": "user@example.com",
+    "first_name": "Al",
+    "last_name": "User",
+    "is_active": true,
+    "is_staff": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "api.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$36000$jYYIfpPO7XwH$Ja0Ucy82UoUPfY6BCz+1ruV4VojWWwlBRbWts5zWIlw=",
+    "last_login": null,
+    "is_superuser": false,
+    "date_joined": "2018-01-22T00:48:49.959Z",
+    "email": "user2@example.com",
+    "first_name": "El",
+    "last_name": "User",
+    "is_active": true,
+    "is_staff": false,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "api.npo",
+  "pk": 1,
+  "fields": {
+    "organization_name": "Test Organization",
+    "org_short_name": "TestOrg",
+    "date_joined": "2018-01-22T00:48:27.692Z",
+    "active": false,
+    "admin_user": 1,
+    "employees": []
+  }
+}
+]
