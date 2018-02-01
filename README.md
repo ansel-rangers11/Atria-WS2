@@ -10,8 +10,8 @@ Prerequisites:
 
 After checking out the repo, Install required packages:
 
-    $ cd Atria-WS
-    $ pipenv install
+    $ cd Atria-WS2
+    $ pipenv install --python 3.6
 
 Enter the pipenv shell:
 
