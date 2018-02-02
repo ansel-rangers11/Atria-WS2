@@ -30,3 +30,34 @@ Then run the dev server
     $ python manage.py runserver
 
 Dev server runs by default on port 8000, so go to `localhost:8000` or `127.0.0.1:8000` in your browser to view the API autodocs.
+
+
+## Adding a new Model
+
+Add a new class to api/models.py
+
+    $ python manage.py makemigrations
+    $ python manage.py migrate
+
+Create a view in api/views
+
+Register in api/admin.py
+
+    $ python manage.py runserver
+
+Run the admin console and verify the admin screens work
+
+Add to api/urls.py
+
+Run the api console and verify the api methods appear
+
+Add test data to api/fixtures/one_npo.json
+
+(Can extract data with python manage.py dumpdata api.<model>)
+
+Create tests in api/tests.py
+
+Run the tests and verify that they pass
+
+    $ python manage.py test
+

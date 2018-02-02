@@ -10,3 +10,4 @@ class UserAdmin(admin.ModelAdmin):
 
 admin.site.register(NPO, admin.ModelAdmin)
 admin.site.register(User, UserAdmin)
+admin.site.register(Opportunity, admin.ModelAdmin)

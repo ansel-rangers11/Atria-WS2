@@ -44,5 +44,16 @@
     "admin_user": 1,
     "employees": []
   }
+},
+{
+  "model": "api.opportunity",
+  "pk": 1,
+  "fields": {
+    "organization": 1,
+    "opportunity_name": "A great time for all!",
+    "start_date": "2018-02-19T03:40:57Z",
+    "end_date": "2018-02-25T03:40:58Z",
+    "active": true
+  }
 }
 ]

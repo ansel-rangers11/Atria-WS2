@@ -38,3 +38,14 @@ class NPO(models.Model):
 
     def __str__(self):
         return '%s, Active: %s' % (self.org_short_name, self.active)
+
+
+class Opportunity(models.Model):
+    organization = models.ForeignKey(NPO)
+    opportunity_name = models.CharField(max_length=255)
+    start_date = models.DateTimeField(auto_now_add=False)
+    end_date = models.DateTimeField(auto_now_add=False)
+    active = models.BooleanField(default=False)
+
+    def __str__(self):
+        return '%s, Active: %s' % (self.opportunity_name, self.active)
