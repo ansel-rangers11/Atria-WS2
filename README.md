@@ -55,7 +55,7 @@ Add test data to api/fixtures/one_npo.json
 
 (Can extract data with python manage.py dumpdata api.<model>)
 
-Create tests in api/tests.py
+Create tests in api/tests/test<model>.py
 
 Run the tests and verify that they pass
 
