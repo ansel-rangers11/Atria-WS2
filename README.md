@@ -1,6 +1,6 @@
 ## Overview
 
-This project is the backend REST API of the Atria Volunteer Platform. 
+This project is the backend REST API of the Atria Volunteer Platform.
 
 ## Project Setup
 
@@ -11,7 +11,7 @@ Prerequisites:
 After checking out the repo, Install required packages:
 
     $ cd Atria-WS2
-    $ pipenv install --python 3.6
+    $ pipenv install
 
 Enter the pipenv shell:
 
@@ -60,4 +60,3 @@ Create tests in api/tests/test<model>.py
 Run the tests and verify that they pass
 
     $ python manage.py test
-
